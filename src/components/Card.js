@@ -57,7 +57,7 @@ export default function Card({
         color={cardList[index].color}
         data-identifier="flashcard"
       >
-        <p>Pergunta {askNumber}</p>
+        <p data-identifier="flashcard-index-item">Pergunta {askNumber}</p>
         <img
           data-identifier="flashcard-show-btn"
           src={changeIcon()}
